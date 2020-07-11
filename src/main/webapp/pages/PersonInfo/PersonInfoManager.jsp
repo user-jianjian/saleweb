@@ -28,15 +28,7 @@
 				</div>
 			</form>
         </div>
-        
-        <!-- 工具栏 -->
-		<div class="w-panel-toolbar">
-       		<ul>
-       		    <li><a onclick="forwardUserCreate();"><img src="${ctx}/static/component/resources/images/icons/color/18/new.png"/>新增</a></li>
-       		    <li><a onclick="openImpWin();"><img src="${ctx}/static/component/resources/images/icons/color/18/import.png"/>导入</a></li>
-       		    <li><a id="exportBtn" isAsyn="true" asynExportWay="1|2"><img src="${ctx}/static/component/resources/images/icons/color/18/export.png"/>导出</a></li>
-		    </ul>
-		</div>
+
 		
 		<!-- 数据表 -->
         <div class="w-panel-content">
