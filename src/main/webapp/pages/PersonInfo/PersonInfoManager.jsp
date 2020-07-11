@@ -7,6 +7,7 @@
 <w:script src="/static/modules/demo/PersonInfoManager.js"/>
 </head>
 <body>
+
 <div class="wrapper">
 	<div class="w-panel">
 		<!-- 查询条件区 -->
@@ -15,7 +16,7 @@
 	        	<div class="find_inbox_list3">
 					<table>
 						<tr>
-							<td class="字段">用户名称 : </td>
+							<td class="字段">用户名称啊 : </td>
 							<td>
 								<input name="userName" type="text" class="w180"/>
 							</td>
