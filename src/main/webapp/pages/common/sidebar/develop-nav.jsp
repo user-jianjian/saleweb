@@ -8,6 +8,7 @@
         <div class="arrow down"></div>
     </div>
     <div class="menuList">
+    	<div class="menu" onclick="redirectToPage('forward/PersonInfo/PersonInfoManager', this);">个人信息维护</div>
         <div class="menu" onclick="redirectToPage('forward/demo/user/UserManager', this);">用户管理</div>
         <div class="menu" onclick="redirectToPage('forward/demo/reward/RewardManager', this);">佣金规则</div>
         <div class="menu" onclick="redirectToPage('forward/demo/callapi/ListDemo', this);">API服务调用示例</div>

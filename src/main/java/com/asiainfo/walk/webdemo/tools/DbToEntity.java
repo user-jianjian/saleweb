@@ -14,7 +14,7 @@ public abstract class DbToEntity {
 	public static void main(String[] args) throws Exception {
 		
 		//工程根目录设置，此处根据自己的项目位置进行设置
-		String outBasePath = "D:/Workspace/github/walk-demo/web-demo";
+		String outBasePath = "F:\\internship\\saleweb";
 		
 		//根包和输出路径设置
 		String basePackage = "com.asiainfo.walk.webdemo";
@@ -24,8 +24,8 @@ public abstract class DbToEntity {
 		String packageName = basePackage + ".mvc.entity";
 		String packagePath = outBasePath + "/src/main/java/" + basePackage.replaceAll("\\.", "/") + "/mvc/entity";
 		String[][] tables = new String[][]{
-			new String[]{"TD_M_STAFF", packageName, packagePath},
-			new String[]{"TD_M_USER", packageName, packagePath},
+//			new String[]{"TD_M_STAFF", packageName, packagePath},
+			new String[]{"TF_M_STAFFPASSWD", packageName, packagePath},
 		};
 		CreateBeans.createJavaBean(tables, createBeanConfig());
 	}

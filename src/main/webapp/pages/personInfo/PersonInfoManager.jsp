@@ -16,13 +16,16 @@
 	        	<div class="find_inbox_list3">
 					<table>
 						<tr>
-							<td class="字段">用户名称啊 : </td>
+							<td class="字段">用户名 : </td>
 							<td>
 								<input name="userName" type="text" class="w180"/>
 							</td>
-							<td class="字段">用户姓名 : </td>
+							<td class="字段">密码 : </td>
 							<td>
 								<input name="realName" type="text" class="w180"/>
+							</td>
+							<td colspan="10" align="center">
+								<a id="queryBtn" class="w-a-btn orange EnterPress" onclick="$.walk.queryList('dataGrid', 'conditionForm');" href="javascript:void(0)">查询</a>
 							</td>
 						</tr>
 					</table>
